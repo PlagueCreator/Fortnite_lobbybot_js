@@ -1,6 +1,6 @@
 [
   {
-    "Download": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDg3t9-kf7ZNA&index=4",
+    "Download": "https://youtu.be/dQw4w9WgXcQ",
     "tag": "For u @chiara",
     "bot": true,
   }
