@@ -1,7 +1,7 @@
 {
   "name": "fortnitejs-bot",
   "version": "1.0.0",
-  "description": "Fortnite XMPP client coded in JavaScript.",
+  "description": "Fortnite lobby bot in js",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/PlagueCreator/Fornite_lobbybot_js/issues"
   },
-  "homepage": "https://github.com/xMistt/fortnitejs-bot#readme",
+  "homepage": "https://github.com/PlagueCreator/Fornite_lobbybot_js/blob/main/README.md",
   "dependencies": {
     "fnbr": "^1.0.3"
   }
