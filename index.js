@@ -5,7 +5,7 @@ const { get } = require('request-promise');
 (async () => {
   const currentLibVersion = JSON.parse(await readFile(require.resolve('fnbr').replace('index.js', 'package.json'))).version;
   const latestVersion = (await get({ url: 'https://registry.npmjs.org/-/package/fnbr/dist-tags', json: true })).latest;
-  if (currentLibVersion !== latestVersion) console.log('\x1b[31mWARNING: You\'re using an older version of the library. Please run installDependencies.bat\x1b[0m');
+  if (currentLibVersion !== latestVersion) console.log('\x1b[31mWARNING: Stai\'Una vecchia versione della librerira. per favore clicca su installDependencies.bat\x1b[0m');
   let config;
   try {
     config = JSON.parse(await readFile('./config.json'));
@@ -18,17 +18,17 @@ const { get } = require('request-promise');
       banner: 'InfluencerBanner57',
       bannerColor: 'defaultcolor',
       level: 999,
-      status: 'discord.gg/fnpy',
+      status: 'Fortnite lobbybot by blague',
       friendaccept: true,
-      inviteaccept: true,
-      platform: 'WIN',
+      inviteaccept: false,
+      platform: 'IOS',
   }, null, 2));
-    console.log('\x1b[31mWARNING: config.json was missing and created. Please fill it out\x1b[0m');
+    console.log('\x1b[31mWARNING: c'è un errore nel file "config.js" per favore controlla. grazie\x1b[0m');
     return;
   }
 
-  console.log('\x1b[36mfortnitejs-bot made by xMistt. Massive credit to This Nils and Alex for creating the library.');
-  console.log('Discord server: https://discord.gg/fnpy - For support, questions, etc.\x1b[0m');
+  console.log('\x1b[36mfortnitejs-bot made by Plague.');
+  console.log('sei hai bisogno di aiuto non esitare a contattarmi\x1b[0m');
 
   process.stdout.write('\x1b[33mFetching cosmetics...\x1b[0m');
   let cosmetics;
@@ -37,12 +37,12 @@ const { get } = require('request-promise');
   } catch (e) {
     process.stdout.clearLine();
     process.stdout.cursorTo(0);
-    console.log('\x1b[31mFailed fetching cosmetics!\x1b[0m');
+    console.log('\x1b[31mnon sono riuscito a trovare i cosmetici!\x1b[0m');
     return;
   }
   process.stdout.clearLine();
   process.stdout.cursorTo(0);
-  console.log('\x1b[32mSuccessfully fetched cosmetics!\x1b[0m');
+  console.log('\x1b[32mcosmetici trovati!\x1b[0m');
 
   const defaultCosmetics = {
     outfit: cosmetics.find((c) => c.name === config.outfit && c.type.value === 'outfit'),
@@ -74,7 +74,7 @@ const { get } = require('request-promise');
   try {
     clientOptions.auth.deviceAuth = JSON.parse(await readFile('./deviceAuth.json'));
   } catch (e) {
-    clientOptions.auth.authorizationCode = async () => Client.consoleQuestion('Please enter an authorization code: ');
+    clientOptions.auth.authorizationCode = async () => Client.consoleQuestion('per favore inserisci l'authcode: ');
   }
 
   const client = new Client(clientOptions);
