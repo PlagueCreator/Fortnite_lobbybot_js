@@ -13,7 +13,7 @@ const { get } = require('request-promise');
     await writeFile('./config.json', JSON.stringify({
       outfit: 'Renegade Raider',
       backpack: 'Black Shield',
-      emote: 'The Renegade',
+      emote: 'Scenario',
       pickaxe: 'AC/DC',
       banner: 'InfluencerBanner57',
       bannerColor: 'defaultcolor',
