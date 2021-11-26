@@ -1,7 +1,5 @@
 # Fornite_lobbybot_js
 
-Fortnite Lobbybot
-
 steps:
 
 1.create a new fortnite account here: https://www.epicgames.com/store/it/
