@@ -74,7 +74,7 @@ const { get } = require('request-promise');
   try {
     clientOptions.auth.deviceAuth = JSON.parse(await readFile('./deviceAuth.json'));
   } catch (e) {
-    clientOptions.auth.authorizationCode = async () => Client.consoleQuestion('per favore inserisci il codice di aiutorizzazione: ');
+    clientOptions.auth.authorizationCode = async () => Client.consoleQuestion('per favore inserisci il codice di autorizzazione: ');
   }
 
   const client = new Client(clientOptions);
