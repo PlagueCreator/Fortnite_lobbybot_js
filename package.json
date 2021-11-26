@@ -5,13 +5,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xMistt/fortnitejs-bot.git"
+    "url": "git+https://github.com/PlagueCreator/Fornite_lobbybot_js.git"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/xMistt/fortnitejs-bot/issues"
+    "url": ""
   },
   "homepage": "https://github.com/xMistt/fortnitejs-bot#readme",
   "dependencies": {
