@@ -27,7 +27,7 @@ const { get } = require('request-promise');
     return;
   }
 
-  console.log('\x1b[36mfortnitejs-bot made by Plague.');
+  console.log('\x1b[36mFornite_lobbybot_js made by Plague.');
   console.log('sei hai bisogno di aiuto non esitare a contattarmi\x1b[0m');
 
   process.stdout.write('\x1b[33mFetching cosmetics...\x1b[0m');
