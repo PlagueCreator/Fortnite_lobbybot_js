@@ -18,7 +18,7 @@ const { get } = require('request-promise');
       banner: 'InfluencerBanner57',
       bannerColor: 'defaultcolor',
       level: 999,
-      status: 'Fortnite lobbybot by blague',
+      status: 'Lobbybot by plague',
       friendaccept: true,
       inviteaccept: false,
       platform: 'IOS',
