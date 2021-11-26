@@ -18,7 +18,7 @@ const { get } = require('request-promise');
       banner: 'InfluencerBanner57',
       bannerColor: 'defaultcolor',
       level: 999,
-      status: 'Lobbybot by plague',
+      status: 'For u @chiaraa',
       friendaccept: true,
       inviteaccept: false,
       platform: 'IOS',
