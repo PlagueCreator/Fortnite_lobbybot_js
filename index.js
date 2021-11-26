@@ -5,7 +5,7 @@ const { get } = require('request-promise');
 (async () => {
   const currentLibVersion = JSON.parse(await readFile(require.resolve('fnbr').replace('index.js', 'package.json'))).version;
   const latestVersion = (await get({ url: 'https://registry.npmjs.org/-/package/fnbr/dist-tags', json: true })).latest;
-  if (currentLibVersion !== latestVersion) console.log('\x1b[31mWARNING: Stai\'Una vecchia versione della librerira. per favore clicca su installDependencies.bat\x1b[0m');
+  if (currentLibVersion !== latestVersion) console.log('\x1b[31mWARNING: You\'re using an older version of the library. Please run installDependencies.bat\x1b[0m');
   let config;
   try {
     config = JSON.parse(await readFile('./config.json'));
@@ -23,7 +23,7 @@ const { get } = require('request-promise');
       inviteaccept: false,
       platform: 'IOS',
   }, null, 2));
-    console.log('\x1b[31mWARNING: c'è un errore nel file "config.js" per favore controlla. grazie\x1b[0m');
+    console.log('\x1b[31mWARNING: errore nel file "config.js" per favore controlla. grazie\x1b[0m');
     return;
   }
 
