@@ -1,4 +1,4 @@
-# Fornite_lobbybot_js
+# Fortnite_lobbybot_js
 
 steps:
 
