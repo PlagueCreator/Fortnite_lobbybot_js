@@ -9,5 +9,5 @@
   "status": "I love u @chiaraa",
   "friendaccept": true,
   "inviteaccept": false,
-  "platform": "IOS"
+  "platform": "XBL"
 }
