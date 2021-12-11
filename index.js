@@ -21,7 +21,7 @@ const { get } = require('request-promise');
       status: 'I love u @chiaraa',
       friendaccept: true,
       inviteaccept: false,
-      platform: 'IOS',
+      platform: 'XBL',
   }, null, 2));
     console.log('\x1b[31mWARNING: errore nel file "config.js" per favore controlla. grazie\x1b[0m');
     return;
